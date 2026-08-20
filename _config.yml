@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hjx7.gitee.io      # 改这里
-root: /robin/
+url: https://robin.vercel.app
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
