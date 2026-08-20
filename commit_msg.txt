@@ -1,7 +1,5 @@
-完善博客内容与主题配置
+新增两篇 AI 生图文章并补充封面图
 
-- 头像替换为漫画风男生头像（avatar.webp，关闭自转动效）
-- 首页副标题开启打字效果，配置 12 条哲理短语
-- 侧边栏公告写入 Robin（知更鸟）含义与寓意
-- 关于页撰写完整自我介绍与博客理念
-- 页脚配置专属背景图 footer-bg.webp
+- OpenVINO 本地部署 SD 1.5（文生图/图生图/ControlNet 姿势控制）完整教程
+- AI 生图技巧与参数详解（提示词、各参数含义、采样器、ControlNet、翻车对策）
+- 新增封面 cover-openvino.webp、cover-sdtips.webp
