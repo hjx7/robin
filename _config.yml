@@ -106,3 +106,7 @@ deploy:
   type: git
   repo: git@gitee.com:hjx7/robin.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
