@@ -62,7 +62,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /images/avatar.webp
   effect: false
 
 # Disable all banner images
@@ -155,12 +155,16 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
+    loop: true
+    showCursor: true
+    startDelay: 300
+    backSpeed: 40
   # Source - Call the third-party service API (Chinese only)
   # It will show the source first, then show the content of sub
   # Choose: false/1/2/3
@@ -171,6 +175,18 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 认识你自己。
+    - 吾生也有涯，而知也无涯。
+    - 行到水穷处，坐看云起时。
+    - 知者不惑，仁者不忧，勇者不惧。
+    - 你无法跨越你不愿面对的河流。
+    - 真正的平静，源于内心的秩序。
+    - 万物皆有裂痕，那是光照进来的地方。
+    - 我们都是星辰的孩子。
+    - 路漫漫其修远兮，吾将上下而求索。
+    - 活在当下，便是最好的修行。
+    - 知识是力量，思考才是自由。
+    - 人生如逆旅，我亦是行人。
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -298,7 +314,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: "🐦 <b>Robin（知更鸟）</b><br>英文名意为「知更鸟」，一种胸前一抹橙红、在清晨最早歌唱的小鸟。<br><br>它象征着<b>新生、希望与勇气</b>——在漫长冬夜后率先报春，于微光中歌唱。<br><br>取名 Robin，是希望这个小站如知更鸟一般：在自己的一方天地里，安静而笃定地，唱出属于自己的声音。"
   card_recent_post:
     enable: true
     # If set 0 will show all
