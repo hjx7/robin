@@ -69,16 +69,16 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /images/home-bg.webp
 
 # The banner image of index page
-index_img:
+index_img: /images/home-bg.webp
 
 # The banner image of archive page
-archive_img:
+archive_img: /images/archive-bg.webp
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /images/tag-bg.webp
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -86,7 +86,7 @@ tag_img:
 tag_per_img:
 
 # Note: category page, not categories page
-category_img:
+category_img: /images/category-bg.webp
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -94,12 +94,12 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: /images/footer-bg.webp
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: /images/bg.webp
 
 cover:
   # Disable the cover or not

@@ -1,0 +1,7 @@
+配置 Butterfly 主题图片与页脚
+
+- 生成各页面顶部图（首页/归档/分类/标签/关于/留言板）与文章封面，均为独立不重复
+- 全站背景图 bg.webp 与页脚背景图 footer-bg.webp
+- 将 source/images 下所有 PNG 压缩为 WebP 并更新引用路径
+- 各独立页面 front-matter 补充 top_img，文章补充 cover/top_img
+- 页脚 footer_img 配置专属背景图
