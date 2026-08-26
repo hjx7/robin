@@ -2,11 +2,12 @@ import os
 import re
 from PIL import Image
 
-IMG_DIR = r"G:\hjx7\robin\source\images"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMG_DIR = os.path.join(BASE_DIR, "source", "images")
 # 需要更新引用路径的文件/目录
 REF_ROOTS = [
-    r"G:\hjx7\robin\source",
-    r"G:\hjx7\robin\_config.butterfly.yml",
+    os.path.join(BASE_DIR, "source"),
+    os.path.join(BASE_DIR, "_config.butterfly.yml"),
 ]
 
 def convert_png_to_webp():
@@ -32,11 +33,11 @@ def update_refs(converted):
 
     # 遍历 source 下所有 md 与主题 yml
     targets = []
-    for root, _, files in os.walk(r"G:\hjx7\robin\source"):
+    for root, _, files in os.walk(os.path.join(BASE_DIR, "source")):
         for f in files:
             if f.endswith(".md"):
                 targets.append(os.path.join(root, f))
-    targets.append(r"G:\hjx7\robin\_config.butterfly.yml")
+    targets.append(os.path.join(BASE_DIR, "_config.butterfly.yml"))
 
     for path in targets:
         with open(path, "r", encoding="utf-8") as fh:
